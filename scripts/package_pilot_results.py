@@ -84,7 +84,7 @@ def main():
         "paired bootstrap intervals, nominal McNemar tests with Holm correction, calibration plots, "
         "score-stress curves, cost policies, context coverage, and head-only efficiency. "
         "Figures are supplied as PNG, PDF and SVG. Manifests and subset IDs record provenance.", "",
-        "## Interpretation limits", "", 
+        "## Interpretation limits", "",
         "- A0 is early fusion; A1 hierarchical attention; A2 adds DTF; A3 adds evidence; "
         "A4 combines raw experts; A5 calibrates; A6 gates. A2/A3 are uncalibrated/ungated.",
         "- These measurements do not automatically support the proposed hypotheses. Negative changes are retained.",
