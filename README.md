@@ -1,6 +1,16 @@
 ## Multi-Modal Fake News Detection with Trust-Aware Triage
 
-This repository contains the full implementation of a multimodal fake news detection system that integrates textual, visual, and external evidential signals with trust-aware uncertainty scoring and cost-aware human verification triage.
+### Controlled local ablation pilot
+
+See [the reproducible pilot protocol](docs/ablation_protocol.md) for official
+subset downloads, five-seed local runs, validation-only calibration/gating,
+CSV/LaTeX tables, figures, and paired uncertainty analysis. The pilot uses frozen
+CLIP features and a small NLI verifier to fit local hardware. It is **not the full
+paper experiment**. The protocol lists missing components and unmeasured outputs.
+The original training CLIs currently reference model/data-loader modules absent
+from this repository; use `mmfnd-pilot` for the self-contained pilot.
+
+This repository contains a research prototype for multimodal fake news detection with textual, visual, and contextual signals, uncertainty scoring, and cost-aware verification triage. The self-contained local pilot is runnable; the original full-study implementation is incomplete as described above.
 
 The codebase is designed for research reproducibility, ablation studies, and real-world deployment experiments.
 
@@ -30,7 +40,7 @@ CMPU (Combined Metric of Prediction Uncertainty)
 
 Cost-aware triage for selective human verification
 
-This repo supports end-to-end training, evaluation, inference, and ablations.
+The pilot supports subset preparation, frozen-feature fusion training, expert-score ablations, and measured report generation. The original full-study CLIs require the missing model/data-loader implementations.
 
 ### Repository Structure
 ```
