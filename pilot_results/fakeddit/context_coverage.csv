@@ -1,0 +1,11 @@
+dataset,seed,split,n,domain_available,evidence_available,domain_coverage,evidence_coverage
+fakeddit,11,test,100,4,100,0.04,1.0
+fakeddit,11,val,100,8,100,0.08,1.0
+fakeddit,22,test,100,4,100,0.04,1.0
+fakeddit,22,val,100,8,100,0.08,1.0
+fakeddit,33,test,100,4,100,0.04,1.0
+fakeddit,33,val,100,8,100,0.08,1.0
+fakeddit,44,test,100,4,100,0.04,1.0
+fakeddit,44,val,100,8,100,0.08,1.0
+fakeddit,55,test,100,4,100,0.04,1.0
+fakeddit,55,val,100,8,100,0.08,1.0

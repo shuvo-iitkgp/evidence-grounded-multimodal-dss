@@ -1,0 +1,9 @@
+{
+  "model": "cross-encoder/nli-MiniLM2-L6-H768",
+  "resolved_revision": "b95119ce93d3e065de6214e38cd4a97b0f2f2c6d",
+  "class_order": [
+    "contradiction",
+    "entailment",
+    "neutral"
+  ]
+}

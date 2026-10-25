@@ -1,0 +1,19 @@
+{
+  "mode": "PILOT",
+  "input_sha256": "8bce50616be9d9b7e7cc3efe30860c1f96020f1a498c70fb55e2ca2e95898d73",
+  "bootstrap_draws": 2000,
+  "bootstrap": "paired image-cluster when hashes supplied; within-seed intervals",
+  "mcnemar": "Exact per seed; Holm across all exported comparisons; nominal post-level test ignores image clustering",
+  "positive_class": "fake (stored label 0)",
+  "pr_auc": "average precision",
+  "ece": "15 equal-width confidence bins",
+  "missing_outputs": [
+    "End-to-end latency and retrieval/verifier timing: head-only measurements are not full pipeline latency",
+    "Retrieval precision/recall/MRR and stance F1: no annotated ground truth",
+    "Targeted E0-E4 internal evidence ablation: not implemented by this pilot",
+    "Cost-reduction bootstrap intervals: only per-seed policy costs are exported",
+    "Passage-level and randomized history corruption: not implemented by score stress"
+  ],
+  "cost": "Review fraction selected on validation; test cost evaluated at fixed policy; perfect-review assumption",
+  "test_selection": "No test labels used by calibration, gate search or review policy fitting"
+}

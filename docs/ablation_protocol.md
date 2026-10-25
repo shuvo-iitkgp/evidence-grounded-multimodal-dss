@@ -111,6 +111,10 @@ direction. It is explicitly a **score-level** stress test, not replaced/removed/
 irrelevant passage evaluation. Gated versus gate-disabled uses the same fitted A6
 parameters. `head_latency.csv` is warmed-up batch-one fusion-head timing only; it
 does not support end-to-end latency, retrieval overhead, or an accuracy/latency Pareto claim.
+`domain_support.csv` reports observed support strata for A6 with its domain gate
+enabled/disabled; empty strata have no rows. It is not a randomized history-corruption
+experiment. Cost-reduction bootstrap intervals and the targeted E0–E4 study remain
+unimplemented; per-seed cost values are supplied without those intervals.
 
 ## What remains necessary for the full paper
 

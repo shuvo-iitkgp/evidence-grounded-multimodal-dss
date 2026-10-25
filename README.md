@@ -7,6 +7,8 @@ subset downloads, five-seed local runs, validation-only calibration/gating,
 CSV/LaTeX tables, figures, and paired uncertainty analysis. The pilot uses frozen
 CLIP features and a small NLI verifier to fit local hardware. It is **not the full
 paper experiment**. The protocol lists missing components and unmeasured outputs.
+Measured tables, figures, predictions and manifests are in
+[the pilot result bundle](pilot_results/README.md); negative results are retained.
 The original training CLIs currently reference model/data-loader modules absent
 from this repository; use `mmfnd-pilot` for the self-contained pilot.
 

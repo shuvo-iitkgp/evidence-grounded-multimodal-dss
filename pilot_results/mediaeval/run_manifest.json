@@ -1,0 +1,57 @@
+{
+  "mode": "PILOT",
+  "device": "cpu",
+  "torch": "2.9.1+cpu",
+  "encoders": "openai/clip-vit-base-patch32",
+  "frozen": true,
+  "verifier": "cross-encoder/nli-MiniLM2-L6-H768",
+  "retrieval": "train-only CLIP cosine top5, CLIP text reranking (not DPR)",
+  "coreference": false,
+  "args": {
+    "data": "data/pilot/mediaeval",
+    "out": "outputs/pilot/mediaeval",
+    "device": "auto",
+    "seeds": "11,22,33,44,55",
+    "epochs": 25,
+    "batch_size": 16,
+    "encoder_batch_size": 4,
+    "threads": 4,
+    "no_evidence": false
+  },
+  "data_manifest": {
+    "dataset": "mediaeval",
+    "subset_seed": 2026,
+    "requested": {
+      "train": 400,
+      "val": 100,
+      "test": 100
+    },
+    "splits": {
+      "test": {
+        "n": 100,
+        "real": 63,
+        "unique_images": 16,
+        "sha256": "5a26754e82aa5b5613167ce2a431579fd8e57650331d404c5ea717e638463f2a"
+      },
+      "val": {
+        "n": 100,
+        "real": 41,
+        "unique_images": 29,
+        "sha256": "f5618ccbf825ae99fe573e93935f9b0cb85e620d07f6aead28040a6020627634"
+      },
+      "train": {
+        "n": 400,
+        "real": 170,
+        "unique_images": 110,
+        "sha256": "f71be9f1fd21195924930f68b62298c8a2ddcbc5dbd914848524822df37df2e9"
+      }
+    }
+  },
+  "limitations": [
+    "Not full manuscript architecture",
+    "No independent evidence relevance/stance annotations",
+    "English encoders: Chinese Weibo performance is not a valid multilingual benchmark",
+    "Training captions are not verified external evidence",
+    "Head-only timing excludes encoders and retrieval"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "mode": "PILOT",
+  "device": "cpu",
+  "torch": "2.9.1+cpu",
+  "gpu": null,
+  "encoders": "openai/clip-vit-base-patch32",
+  "frozen": true,
+  "verifier": "cross-encoder/nli-MiniLM2-L6-H768",
+  "retrieval": "train-only CLIP cosine top5, CLIP text reranking (not DPR)",
+  "coreference": false,
+  "args": {
+    "data": "data/pilot/fakeddit",
+    "out": "outputs/pilot/fakeddit",
+    "device": "auto",
+    "seeds": "11,22,33,44,55",
+    "epochs": 25,
+    "batch_size": 16,
+    "encoder_batch_size": 4,
+    "threads": 2,
+    "no_evidence": false
+  },
+  "data_manifest": {
+    "dataset": "fakeddit",
+    "subset_seed": 2026,
+    "requested": {
+      "train": 400,
+      "val": 100,
+      "test": 100
+    },
+    "splits": {
+      "test": {
+        "n": 100,
+        "real": 40,
+        "unique_images": 100,
+        "sha256": "8207cdaf9485849c58aa4afd76b85f096be51f44ca676d3533c03e21b70b4005"
+      },
+      "val": {
+        "n": 100,
+        "real": 39,
+        "unique_images": 100,
+        "sha256": "9cf2b23968a269cfd9748a326df68f1159c90ffe5ed2f9e03b77bdbe001a39a4"
+      },
+      "train": {
+        "n": 399,
+        "real": 157,
+        "unique_images": 399,
+        "sha256": "340f941acbf377b5935ce9b926ebed5891f029ea0dfb3d3ddf536233e65fe2cb"
+      }
+    }
+  },
+  "limitations": [
+    "Not full manuscript architecture",
+    "No independent evidence relevance/stance annotations",
+    "English encoders: Chinese Weibo performance is not a valid multilingual benchmark",
+    "Training captions are not verified external evidence",
+    "Head-only timing excludes encoders and retrieval"
+  ],
+  "whole_run_peak_gpu_allocated_bytes": null,
+  "whole_run_peak_gpu_reserved_bytes": null
+}

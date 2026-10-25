@@ -50,7 +50,10 @@ def validate(frame):
 def savefig(fig, root, name):
     fig.tight_layout()
     for extension in ("png","pdf","svg"):
-        fig.savefig(root/(name+"."+extension),dpi=200,bbox_inches="tight")
+        path = root/(name+"."+extension)
+        fig.savefig(path,dpi=200,bbox_inches="tight")
+        if extension == "svg":
+            path.write_text("\n".join(line.rstrip() for line in path.read_text(encoding="utf-8").splitlines())+"\n",encoding="utf-8")
     plt.close(fig)
 
 
@@ -207,7 +210,9 @@ def generate(scores_path, out, draws=500):
                 "positive_class":"fake (stored label 0)","pr_auc":"average precision", "ece":"15 equal-width confidence bins",
                 "missing_outputs":["End-to-end latency/Pareto: head-only measurements are not end-to-end latency",
                     "Retrieval precision/recall/MRR and stance F1: no relevance or stance ground truth",
-                    "E4 coreference: no real resolver available", "Passage-level corruption: not implemented by score stress"],
+                    "Targeted E0-E4 internal evidence ablation: not implemented by this pilot",
+                    "Cost-reduction bootstrap intervals: only per-seed policy costs are exported",
+                    "Passage-level corruption: not implemented by score stress"],
                 "cost":"Review fraction selected on validation; test cost evaluated at fixed policy; perfect-review assumption",
                 "test_selection":"No test labels used by calibration, gate search or review policy fitting"}
     (out/"report_manifest.json").write_text(json.dumps(manifest,indent=2),encoding="utf-8")

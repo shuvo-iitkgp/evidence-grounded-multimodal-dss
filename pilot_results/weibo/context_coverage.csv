@@ -1,0 +1,11 @@
+dataset,seed,split,n,domain_available,evidence_available,domain_coverage,evidence_coverage
+weibo,11,test,100,0,100,0.0,1.0
+weibo,11,val,100,0,100,0.0,1.0
+weibo,22,test,100,0,100,0.0,1.0
+weibo,22,val,100,0,100,0.0,1.0
+weibo,33,test,100,0,100,0.0,1.0
+weibo,33,val,100,0,100,0.0,1.0
+weibo,44,test,100,0,100,0.0,1.0
+weibo,44,val,100,0,100,0.0,1.0
+weibo,55,test,100,0,100,0.0,1.0
+weibo,55,val,100,0,100,0.0,1.0

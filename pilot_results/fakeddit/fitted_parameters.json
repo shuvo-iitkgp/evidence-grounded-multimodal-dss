@@ -1,0 +1,947 @@
+[
+  {
+    "dataset": "fakeddit",
+    "seed": 11,
+    "config": "A0",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 11,
+    "config": "A1",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 11,
+    "config": "A2",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 11,
+    "config": "A3",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 11,
+    "config": "A4",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 11,
+    "config": "A5",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0878876741811259,
+        "offset": 0.06994667322131638
+      },
+      {
+        "slope": 148.4131591025766,
+        "offset": 1.1935293904386632
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.42010528157863347
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 11,
+    "config": "A6",
+    "gate": [
+      5.0,
+      0.1,
+      0.7,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0878876741811259,
+        "offset": 0.06994667322131638
+      },
+      {
+        "slope": 148.4131591025766,
+        "offset": 1.1935293904386632
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.42010528157863347
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 22,
+    "config": "A0",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 22,
+    "config": "A1",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 22,
+    "config": "A2",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 22,
+    "config": "A3",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 22,
+    "config": "A4",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 22,
+    "config": "A5",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.5850665020713498,
+        "offset": -0.4727699028270232
+      },
+      {
+        "slope": 148.4131591025766,
+        "offset": 1.1935293904386632
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.42010528157863347
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 22,
+    "config": "A6",
+    "gate": [
+      5.0,
+      0.1,
+      0.7,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.5850665020713498,
+        "offset": -0.4727699028270232
+      },
+      {
+        "slope": 148.4131591025766,
+        "offset": 1.1935293904386632
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.42010528157863347
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 33,
+    "config": "A0",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 33,
+    "config": "A1",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 33,
+    "config": "A2",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 33,
+    "config": "A3",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 33,
+    "config": "A4",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 33,
+    "config": "A5",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.45168312523874543,
+        "offset": -0.1839123661125566
+      },
+      {
+        "slope": 148.4131591025766,
+        "offset": 1.1935293904386632
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.42010528157863347
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 33,
+    "config": "A6",
+    "gate": [
+      5.0,
+      0.1,
+      0.7,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.45168312523874543,
+        "offset": -0.1839123661125566
+      },
+      {
+        "slope": 148.4131591025766,
+        "offset": 1.1935293904386632
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.42010528157863347
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 44,
+    "config": "A0",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 44,
+    "config": "A1",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 44,
+    "config": "A2",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 44,
+    "config": "A3",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 44,
+    "config": "A4",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 44,
+    "config": "A5",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.4797545302435234,
+        "offset": -0.20861192439843865
+      },
+      {
+        "slope": 148.4131591025766,
+        "offset": 1.1935293904386632
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.42010528157863347
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 44,
+    "config": "A6",
+    "gate": [
+      5.0,
+      0.1,
+      0.7,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.4797545302435234,
+        "offset": -0.20861192439843865
+      },
+      {
+        "slope": 148.4131591025766,
+        "offset": 1.1935293904386632
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.42010528157863347
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 55,
+    "config": "A0",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 55,
+    "config": "A1",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 55,
+    "config": "A2",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 55,
+    "config": "A3",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 55,
+    "config": "A4",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 55,
+    "config": "A5",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.3698394856035063,
+        "offset": -0.4566380285367325
+      },
+      {
+        "slope": 148.4131591025766,
+        "offset": 1.1935293904386632
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.42010528157863347
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "fakeddit",
+    "seed": 55,
+    "config": "A6",
+    "gate": [
+      5.0,
+      0.1,
+      0.7,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.3698394856035063,
+        "offset": -0.4566380285367325
+      },
+      {
+        "slope": 148.4131591025766,
+        "offset": 1.1935293904386632
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.42010528157863347
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  }
+]

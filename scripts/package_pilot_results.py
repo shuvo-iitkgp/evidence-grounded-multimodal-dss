@@ -26,6 +26,9 @@ def main():
         for path in (run/"report").iterdir():
             if path.is_file():
                 shutil.copy2(path,dest/path.name)
+                if path.suffix == ".svg":
+                    copied = dest/path.name
+                    copied.write_text("\n".join(line.rstrip() for line in copied.read_text(encoding="utf-8").splitlines())+"\n",encoding="utf-8")
         for name in ("run_manifest.json","encoder_provenance.json","verifier_provenance.json"):
             if (run/name).exists():
                 shutil.copy2(run/name,dest/name)
@@ -59,7 +62,10 @@ def main():
     fig.suptitle("Real-data local pilot: fixed subsets and repeated training seeds",fontsize=13)
     fig.tight_layout()
     for extension in ("png","pdf","svg"):
-        fig.savefig(target/("pilot_macro_f1."+extension),dpi=200,bbox_inches="tight")
+        path = target/("pilot_macro_f1."+extension)
+        fig.savefig(path,dpi=200,bbox_inches="tight")
+        if extension == "svg":
+            path.write_text("\n".join(line.rstrip() for line in path.read_text(encoding="utf-8").splitlines())+"\n",encoding="utf-8")
     plt.close(fig)
     lines = ["# Measured local ablation pilot", "", "These are real subset measurements, not final paper evidence. "
              f"Training seeds per dataset: {seed_counts}. The model uses frozen CLIP features, small fusion heads, "
