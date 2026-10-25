@@ -13,6 +13,7 @@ __pycache__/
 # Virtual environments
 ########################################
 .venv/
+.venv-pilot/
 venv/
 ENV/
 env/
@@ -80,12 +81,12 @@ reports/
 .cache/
 huggingface/
 hf_cache/
-datasets/
+/datasets/
 
 ########################################
 # Downloaded models
 ########################################
-models/
+/models/
 pretrained/
 
 ########################################

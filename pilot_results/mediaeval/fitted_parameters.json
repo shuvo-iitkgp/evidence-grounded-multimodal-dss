@@ -1,0 +1,947 @@
+[
+  {
+    "dataset": "mediaeval",
+    "seed": 11,
+    "config": "A0",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 11,
+    "config": "A1",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 11,
+    "config": "A2",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 11,
+    "config": "A3",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 11,
+    "config": "A4",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 11,
+    "config": "A5",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.6994462292072164,
+        "offset": 0.1578080423463525
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.3498375764201528
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 11,
+    "config": "A6",
+    "gate": [
+      5.0,
+      0.1,
+      0.7,
+      5.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.6994462292072164,
+        "offset": 0.1578080423463525
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.3498375764201528
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 22,
+    "config": "A0",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 22,
+    "config": "A1",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 22,
+    "config": "A2",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 22,
+    "config": "A3",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 22,
+    "config": "A4",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 22,
+    "config": "A5",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.3556385393130495,
+        "offset": -0.24889570344609305
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.3498375764201528
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 22,
+    "config": "A6",
+    "gate": [
+      5.0,
+      0.1,
+      0.7,
+      5.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.3556385393130495,
+        "offset": -0.24889570344609305
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.3498375764201528
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 33,
+    "config": "A0",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 33,
+    "config": "A1",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 33,
+    "config": "A2",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 33,
+    "config": "A3",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 33,
+    "config": "A4",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 33,
+    "config": "A5",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.5197786651414025,
+        "offset": 1.5905490700176415
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.3498375764201528
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 33,
+    "config": "A6",
+    "gate": [
+      5.0,
+      0.1,
+      0.7,
+      5.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.5197786651414025,
+        "offset": 1.5905490700176415
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.3498375764201528
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 44,
+    "config": "A0",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 44,
+    "config": "A1",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 44,
+    "config": "A2",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 44,
+    "config": "A3",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 44,
+    "config": "A4",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 44,
+    "config": "A5",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.5583044106069623,
+        "offset": 0.351858948411086
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.3498375764201528
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 44,
+    "config": "A6",
+    "gate": [
+      5.0,
+      0.1,
+      0.7,
+      5.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.5583044106069623,
+        "offset": 0.351858948411086
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.3498375764201528
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 55,
+    "config": "A0",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 55,
+    "config": "A1",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 55,
+    "config": "A2",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 55,
+    "config": "A3",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 55,
+    "config": "A4",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 55,
+    "config": "A5",
+    "gate": [
+      10.0,
+      0.5,
+      0.5,
+      10.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.6700367771583691,
+        "offset": -0.2129514004838797
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.3498375764201528
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  },
+  {
+    "dataset": "mediaeval",
+    "seed": 55,
+    "config": "A6",
+    "gate": [
+      5.0,
+      0.1,
+      0.7,
+      5.0
+    ],
+    "calibrators": [
+      {
+        "slope": 0.6700367771583691,
+        "offset": -0.2129514004838797
+      },
+      {
+        "slope": 1.0,
+        "offset": 0.0
+      },
+      {
+        "slope": 0.006737946999085467,
+        "offset": -0.3498375764201528
+      }
+    ],
+    "base_weights": "equal",
+    "threshold": 0.5
+  }
+]

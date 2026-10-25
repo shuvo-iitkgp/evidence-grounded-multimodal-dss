@@ -1,0 +1,11 @@
+dataset,seed,split,n,domain_available,evidence_available,domain_coverage,evidence_coverage
+mediaeval,11,test,100,0,100,0.0,1.0
+mediaeval,11,val,100,0,100,0.0,1.0
+mediaeval,22,test,100,0,100,0.0,1.0
+mediaeval,22,val,100,0,100,0.0,1.0
+mediaeval,33,test,100,0,100,0.0,1.0
+mediaeval,33,val,100,0,100,0.0,1.0
+mediaeval,44,test,100,0,100,0.0,1.0
+mediaeval,44,val,100,0,100,0.0,1.0
+mediaeval,55,test,100,0,100,0.0,1.0
+mediaeval,55,val,100,0,100,0.0,1.0
